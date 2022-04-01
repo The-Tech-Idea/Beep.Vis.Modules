@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>The Tech Idea</Company>
+    <Description>Beep Visualization Interfaces</Description>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/The-Tech-Idea/Beep.Vis.Modules</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TheTechIdea.Beep.DataManagementModels2.0" Version="1.0.0.5" />
+  </ItemGroup>
+
+</Project>
